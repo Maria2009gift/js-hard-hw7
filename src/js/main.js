@@ -1,4 +1,4 @@
-import students from "./students.json" assert { type: "json" }
+import students from "../js/students.json" assert { type: "json" }
 import menuTemplate from '../templates/menu.hbs';
 import "../style.css";
 
