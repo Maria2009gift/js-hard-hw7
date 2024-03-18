@@ -1,6 +1,6 @@
 import students from "../js/students.json" assert { type: "json" }
-import menuTemplate from '../templates/menu.hbs';
-import "../style.css";
+import menuTemplate from '../templates/menu.hbs' assert { type:"text/x-handlebars-template" }
+
 
 const container = document.querySelector(".container")
 const btnFilterAge = document.querySelector("#btnFilterAge")
