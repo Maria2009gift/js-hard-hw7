@@ -1,5 +1,5 @@
 import students from "../js/students.json" assert { type: "json" }
-import menuTemplate from '../templates/menu.hbs' assert { type:"x-handlebars-template" }
+import menuTemplate from '../templates/menu.hbs' assert { type:"hbs" }
 
 
 const container = document.querySelector(".container")
