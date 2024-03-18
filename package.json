@@ -1,0 +1,25 @@
+{
+  "name": "js-hard-hw7",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Maria2009gift.github.io/js-hard-hw7",
+  "scripts": {
+    "start": "parcel src/index.html --no-cache",
+    "build": "parcel build src/*.html --public-url /js-hard-hw7/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
